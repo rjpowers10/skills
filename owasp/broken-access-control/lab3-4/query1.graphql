@@ -1,0 +1,11 @@
+# Run this query to see what data types are available.
+
+{
+  __schema {
+    types {
+      name
+    }
+  }
+}
+
+# The UserObject type looks interesting. We'll explore that in the next query.

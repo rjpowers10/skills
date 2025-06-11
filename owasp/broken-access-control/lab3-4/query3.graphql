@@ -1,0 +1,14 @@
+# Let's see if a query exists to select all users.
+
+query availableQueries {
+  __schema {
+    queryType {
+      fields {
+        name
+        description
+      }
+    }
+  }
+}
+
+# Yep, there's an allUsers query.

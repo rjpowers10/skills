@@ -1,0 +1,14 @@
+# Let's run the allUsers query to select all users that are admins
+
+{
+  allUsers {
+    edges {
+      node {
+        username
+        isAdmin
+      }
+    }
+  }
+}
+
+# Success! We found an admin user. Now we know which user to target in our attacks.

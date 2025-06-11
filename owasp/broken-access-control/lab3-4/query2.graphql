@@ -1,0 +1,20 @@
+# Let's see what fields are included on users.
+
+{
+  __type(name: "UserObject") {
+    name
+    fields {
+      name
+      type {
+        name
+        kind
+        ofType {
+          name
+          kind
+        }
+      }
+    }
+  }
+}
+
+# That's interesting, there is an isAdmin field. Let's see if we can find all admin users.
